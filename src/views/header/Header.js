@@ -1,10 +1,10 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import Menu from './Menu'
 
-const Header = ({}) => (
+const Header = ({ sites }) => (
     <div className="App-header">
         <h2>Ciuchy Kraków</h2>
-        <Menu />
+        <Menu sites={sites} />
     </div>
 )
 

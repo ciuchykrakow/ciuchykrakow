@@ -1,11 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Menu= ({}) => (
+const Menu = ({ sites }) => (
     <ul>
-        <li>asd</li>
-        <li>asd</li>
-        <li>asd</li>
-        <li>asd</li>
+        {
+            sites.map(({ name, path }) => (
+                <li><Link to={path}>{name}</Link></li>
+            ))
+        }
     </ul>
 )
 

@@ -1,6 +1,9 @@
 ---
+
 layout: post
+
 title: Example post
+
 ---
 
 Ham pig alcatra biltong. Ball tip meatloaf andouille pork, [corned beef](#) tenderloin alcatra bresaola *bacon* fatback spare ribs pig tail meatball turkey.
